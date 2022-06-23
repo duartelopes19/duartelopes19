@@ -1,8 +1,8 @@
-### Hi there :)
+### hi there :)
 
 <hr visibility:hidden;" />
 
-<hr style="height:30pt; visibility:hidden;" />
+<hr visibility:hidden;" />
 
 <p align = "center">
   
