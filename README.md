@@ -1,16 +1,15 @@
-### Hi there 👋
+### welcome :)
 
-<!--
-**duartelopes19/duartelopes19** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<hr style="height:30pt; visibility:hidden;" />
 
-Here are some ideas to get you started:
+<hr style="height:30pt; visibility:hidden;" />
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<p align = "center">
+<div style="display: flex; flex-direction: row;">
+  
+  <img alt="Duarte Lopes' Github Stats" align="left" height="180em" src="https://github-readme-stats.vercel.app/api?username=duartelopes19&show_icons=true&theme=noctis_minimus&include_all_commits=true&count_private=true&line_height=20" />
+  
+  <img alt="Duarte Lopes' Top Languages" align="left" height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=duartelopes19&langs_count=7&theme=noctis_minimus&layout=compact&card_width=382" />
+  
+</div>
+</p>
