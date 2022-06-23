@@ -4,7 +4,7 @@
 
 <hr style="height:30pt; visibility:hidden;" />
 
-<div align = "center" height="180em" width="1000em">
+<div align = "center" height="180em" width="900em">
   
   <img alt="Duarte Lopes' Github Stats" height="180em" width="450em" src="https://github-readme-stats.vercel.app/api?username=duartelopes19&show_icons=true&theme=noctis_minimus&include_all_commits=true&count_private=true&line_height=20" />
   
