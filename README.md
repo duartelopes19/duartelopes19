@@ -8,6 +8,6 @@
   
   <img alt="Duarte Lopes' Github Stats" height="180em" src="https://github-readme-stats.vercel.app/api?username=duartelopes19&show_icons=true&theme=noctis_minimus&include_all_commits=true&count_private=true&line_height=20" />
   
-  <img alt="Duarte Lopes' Top Languages" height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=duartelopes19&langs_count=7&theme=noctis_minimus&layout=compact&card_width=382" />
+  <img alt="Duarte Lopes' Top Languages" height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=duartelopes19&langs_count=7&theme=noctis_minimus&layout=compact" />
 
 </p>
