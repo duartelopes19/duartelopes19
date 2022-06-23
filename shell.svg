@@ -1,4 +1,4 @@
-<svg fill="none" viewBox="0 0 660 900" width="660" height="900" xmlns="http://www.w3.org/2000/svg">
+<svg fill="none" viewBox="0 0 660 650" width="660" height="650" xmlns="http://www.w3.org/2000/svg">
     <foreignObject width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml" class="root">
             <style>
@@ -75,33 +75,7 @@
                     91% { content: "ls language" }
                     100% { content: "ls languages" }
                 }
-                @keyframes education {
-                    0% { content: "" }
-                    7% { content: "c" }
-                    15% { content: "ca" }
-                    23% { content: "cat" }
-                    30% { content: "cat " }
-                    38% { content: "cat e" }
-                    46% { content: "cat ed" }
-                    53% { content: "cat edu" }
-                    61% { content: "cat educ" }
-                    69% { content: "cat educa" }
-                    76% { content: "cat educat" }
-                    84% { content: "cat educati" }
-                    92% { content: "cat educatio" }
-                    100% { content: "cat education" }
-                }
-                @keyframes echo-os {
-                    0% { content: "" }
-                    12% { content: "e" }
-                    25% { content: "ec" }
-                    37% { content: "ech" }
-                    50% { content: "echo" }
-                    62% { content: "echo " }
-                    75% { content: "echo $" }
-                    87% { content: "echo $o" }
-                    100% { content: "echo $os" }
-                }
+                
                 * {
                     padding: 0;
                     margin: 0;
@@ -184,23 +158,11 @@
                 #languages {
                     --command: languages;
                     --duration: 1.5s;
-                    --start-at: 10.5s;
-                    --show-at: 9.5s;
-                }
-                #education {
-                    --command: education;
-                    --duration: 1.5s;
-                    --start-at: 13s;
-                    --show-at: 12s;
-                }
-                #echo-os {
-                    --command: echo-os;
-                    --duration: 1s;
-                    --start-at: 15.5s;
-                    --show-at: 14.5s;
+                    --start-at: 8s;
+                    --show-at: 7s;
                 }
                 #empty {
-                    --show-at: 16.5s;
+                    --show-at: 9.5s;
                 }
                 #empty .command::before {
                     content: "";
@@ -215,7 +177,7 @@
 
             <div class="command-line" id="figlet">
                 <p>
-                    <span class="path">~&#32;</span><span class="prompt">></span>
+                    <span class="path">:&#32;</span><span class="prompt">$</span>
                     <span class="command" />
                 </p>
                 <div class="result">
@@ -245,11 +207,11 @@
 
             <div class="command-line" id="neofetch">
                 <p>
-                    <span class="path">~ </span><span class="prompt">></span>
+                    <span class="path">: </span><span class="prompt">$</span>
                     <span class="command"/>
                 </p>
                 <div class="result">
-                    <p style="font-size:10px;line-height:15px"><span>            <span style="color:#BC544B">.-/+oossssoo+/-.               duarte</span>@<span style="color:#BC544B">wsl-linux</span>
+                    <p style="font-size:12px;line-height:15px"><span>            <span style="color:#BC544B">.-/+oossssoo+/-.               duarte</span>@<span style="color:#BC544B">wsl-linux</span>
         <span style="color:#BC544B">`:+ssssssssssssssssss+:`</span>           ----------------------
      <span style="color:#BC544B"> -+ssssssssssssssssssyyssss+-</span>         <span style="color:#BC544B">OS:</span> Ubuntu 20.04.4 LTS on Windows 10 x86_64
     <span style="color:#BC544B">.ossssssssssssssssss</span>dMMMNy<span style="color:#BC544B">sssso.</span>       <span style="color:#BC544B">Kernel:</span> 5.10.60.1-microsoft-standard-WSL2
@@ -274,37 +236,17 @@
 
             <div class="command-line" id="languages">
                 <p>
-                    <span class="path">~ </span><span class="prompt">></span>
+                    <span class="path">: </span><span class="prompt">$</span>
                     <span class="command"/>
                 </p>
                 <div class="result">
-                    <p><span>bash  c++  css  html  java  javascript  lua  python  typescript</span></p>
-                </div>
-            </div>
-
-            <div class="command-line" id="education">
-                <p>
-                    <span class="path">~ </span><span class="prompt">></span>
-                    <span class="command"/>
-                </p>
-                <div class="result">
-                    <p><span>Currently getting a BSc and MSc in Informatics and Computing Engineering at FEUP</span></p>
-                </div>
-            </div>
-
-            <div class="command-line" id="echo-os">
-                <p>
-                    <span class="path">~ </span><span class="prompt">></span>
-                    <span class="command"/>
-                </p>
-                <div class="result">
-                    <p><span>I use Arch&#8482; btw, checkout my dotfiles</span></p>
+                    <p><span>bash  c++  c  java  python  sql  flutter  assembly</span></p>
                 </div>
             </div>
 
             <div class="command-line" id="empty">
                 <p>
-                    <span class="path">~ </span><span class="prompt"></span>
+                    <span class="path">: </span><span class="prompt">$</span>
                     <span class="command"/>
                 </p>
             </div>
