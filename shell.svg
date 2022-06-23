@@ -1,4 +1,4 @@
-<svg fill="none" viewBox="0 0 660 380" width="660" height="380" xmlns="http://www.w3.org/2000/svg">
+<svg fill="none" viewBox="0 0 660 900" width="660" height="900" xmlns="http://www.w3.org/2000/svg">
     <foreignObject width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml" class="root">
             <style>
@@ -44,32 +44,21 @@
                     93% { content: "figlet -c welcome" }
                     100% { content: "figlet -c welcome!" }
                 }
-                @keyframes pinky {
+                @keyframes id {
                     0% { content: "" }
-                    6% { content: "p" }
-                    13% { content: "pi" }
-                    20% { content: "pin" }
-                    26% { content: "pink" }
-                    33% { content: "pinky" }
-                    40% { content: "pinky " }
-                    46% { content: "pinky -" }
-                    53% { content: "pinky -l" }
-                    60% { content: "pinky -lb" }
-                    66% { content: "pinky -lb " }
-                    73% { content: "pinky -lb t" }
-                    80% { content: "pinky -lb to" }
-                    86% { content: "pinky -lb toi" }
-                    93% { content: "pinky -lb toin" }
-                    100% { content: "pinky -lb toino" }
+                    50% { content: "i" }
+                    100% { content: "id" }
                 }
-                @keyframes locale {
+                @keyframes neofetch {
                     0% { content: "" }
-                    16% { content: "l" }
-                    33% { content: "lo" }
-                    50% { content: "loc" }
-                    66% { content: "loca" }
-                    83% { content: "local" }
-                    100% { content: "locale" }
+                    14% { content: "n" }
+                    28% { content: "ne" }
+                    42% { content: "neo" }
+                    56% { content: "neof" }
+                    70% { content: "neofe" }
+                    84% { content: "neofet" }
+                    98% { content: "neofetc" }
+                    100% { content: "neofetch" }
                 }
                 @keyframes languages {
                     0% { content: "" }
@@ -125,7 +114,6 @@
                     width: 100%;
                     height: 100%;
                     border-radius: 10px;
-                    /* Hacky way to make font sizes consistent */
                     color: white;
                     font-family: monospace;
                     letter-spacing: calc(8px - 1ch);
@@ -177,21 +165,21 @@
                 }
                 #figlet {
                     --command: figlet;
-                    --duration: 3s;
+                    --duration: 2s;
                     --start-at: 1s;
                     --show-at: 0s;
                 }
-                #pinky {
-                    --command: pinky;
-                    --duration: 2.5s;
-                    --start-at: 5s;
-                    --show-at: 4s;
+                #id {
+                    --command: id;
+                    --duration: 0.5s;
+                    --start-at: 4s;
+                    --show-at: 3s;
                 }
-                #locale {
-                    --command: locale;
-                    --duration: 1s;
-                    --start-at: 8.5s;
-                    --show-at: 7.5s;
+                #neofetch {
+                    --command: neofetch;
+                    --duration: 1.5s;
+                    --start-at: 5.5s;
+                    --show-at: 4.5s;
                 }
                 #languages {
                     --command: languages;
@@ -240,23 +228,47 @@
                 </div>
             </div>
 
-            <div class="command-line" id="pinky">
+            <div class="command-line" id="id">
                 <p>
-                    <span class="path">~ </span><span class="prompt">></span>
+                    <span class="path">: </span><span class="prompt">$</span>
                     <span class="command"/>
                 </p>
                 <div class="result">
-                    <p><span>Login name: toino                       In real life: João</span></p>
+                    <p><span>duarte{
+	age: 19
+	from: porto, portugal
+	studying: informatics and computation @ feup
+	progress: 45% (81/180ETCS)
+}</span></p>
                 </div>
             </div>
 
-            <div class="command-line" id="locale">
+            <div class="command-line" id="neofetch">
                 <p>
                     <span class="path">~ </span><span class="prompt">></span>
                     <span class="command"/>
                 </p>
                 <div class="result">
-                    <p>LANG=en_US.UTF-8:pt_PT.UTF-8</p>
+                    <p style="font-size:10px;line-height:15px"><span>            <span style="color:#BC544B">.-/+oossssoo+/-.               duarte</span>@<span style="color:#BC544B">wsl-linux</span>
+        <span style="color:#BC544B">`:+ssssssssssssssssss+:`</span>           ----------------------
+     <span style="color:#BC544B"> -+ssssssssssssssssssyyssss+-</span>         <span style="color:#BC544B">OS:</span> Ubuntu 20.04.4 LTS on Windows 10 x86_64
+    <span style="color:#BC544B">.ossssssssssssssssss</span>dMMMNy<span style="color:#BC544B">sssso.</span>       <span style="color:#BC544B">Kernel:</span> 5.10.60.1-microsoft-standard-WSL2
+   <span style="color:#BC544B">/sssssssssss</span>hdmmNNmmyNMMMMh<span style="color:#BC544B">ssssss/</span>      <span style="color:#BC544B">Packages:</span> 809 (dpkg)
+  <span style="color:#BC544B">+sssssssss</span>hm<span style="color:#BC544B">yd</span>MMMMMMMNddddy<span style="color:#BC544B">ssssssss+ </span>    <span style="color:#BC544B">Shell:</span> bash 5.0.17
+ <span style="color:#BC544B">/ssssssss</span>hNMMM<span style="color:#BC544B">yh</span>hyyyyhmNMMMNh<span style="color:#BC544B">ssssssss/</span>    <span style="color:#BC544B">CPU:</span> Intel i7-6500U @ 2.591GHz
+<span style="color:#BC544B">.ssssssss</span>dMMMNh<span style="color:#BC544B">ssssssssss</span>hNMMMd<span style="color:#BC544B">ssssssss.</span>
+<span style="color:#BC544B">+ssss</span>hhhyNMMNy<span style="color:#BC544B">ssssssssssss</span>yNMMMy<span style="color:#BC544B">sssssss+</span>
+<span style="color:#BC544B">oss</span>yNMMMNyMMh<span style="color:#BC544B">ssssssssssssss</span>hmmmh<span style="color:#BC544B">ssssssso </span>
+<span style="color:#BC544B">oss</span>yNMMMNyMMh<span style="color:#BC544B">sssssssssssssshmmmhssssssso</span>
+<span style="color:#BC544B">+ssss</span>hhhyNMMNy<span style="color:#BC544B">ssssssssssss</span>yNMMMy<span style="color:#BC544B">sssssss+</span>
+<span style="color:#BC544B">.ssssssss</span>dMMMNh<span style="color:#BC544B">ssssssssss</span>hNMMMd<span style="color:#BC544B">ssssssss.</span>
+<span style="color:#BC544B"> /ssssssss</span>hNMMM<span style="color:#BC544B">yh</span>hyyyyhdNMMMNh<span style="color:#BC544B">ssssssss/</span>
+  <span style="color:#BC544B">+sssssssss</span>dm<span style="color:#BC544B">yd</span>MMMMMMMMddddy<span style="color:#BC544B">ssssssss+</span>
+   <span style="color:#BC544B">/sssssssssss</span>hdmNNNNmyNMMMMh<span style="color:#BC544B">ssssss/</span>
+    <span style="color:#BC544B">.ossssssssssssssssss</span>dMMMNy<span style="color:#BC544B">sssso.</span>
+      <span style="color:#BC544B">-+sssssssssssssssss</span>yyy<span style="color:#BC544B">ssss+-</span>
+        <span style="color:#BC544B">`:+ssssssssssssssssss+:`</span>
+             <span style="color:#BC544B">.-/+oossssoo+/-.</span></span></p>
                 </div>
             </div>
 
@@ -277,7 +289,6 @@
                 </p>
                 <div class="result">
                     <p><span>Currently getting a BSc and MSc in Informatics and Computing Engineering at FEUP</span></p>
-                    <p><span>Progress: [|||||||||||||                                                       ]</span></p>
                 </div>
             </div>
 
@@ -293,7 +304,7 @@
 
             <div class="command-line" id="empty">
                 <p>
-                    <span class="path">~ </span><span class="prompt">></span>
+                    <span class="path">~ </span><span class="prompt"></span>
                     <span class="command"/>
                 </p>
             </div>
