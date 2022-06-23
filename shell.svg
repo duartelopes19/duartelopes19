@@ -62,18 +62,19 @@
                 }
                 @keyframes languages {
                     0% { content: "" }
-                    8% { content: "l" }
-                    16% { content: "ls" }
-                    25% { content: "ls " }
-                    33% { content: "ls l" }
-                    41% { content: "ls la" }
-                    50% { content: "ls lan" }
-                    58% { content: "ls lang" }
-                    66% { content: "ls langu" }
-                    75% { content: "ls langua" }
-                    83% { content: "ls languag" }
-                    91% { content: "ls language" }
-                    100% { content: "ls languages" }
+                    8% { content: "c" }
+                    16% { content: "ca" }
+                    25% { content: "cat" }
+                    33% { content: "cat " }
+                    41% { content: "cat l" }
+                    50% { content: "cat la" }
+                    58% { content: "cat lan" }
+                    66% { content: "cat lang" }
+                    75% { content: "cat langu" }
+                    83% { content: "cat langua" }
+                    91% { content: "cat languag" }
+                    95% { content: "cat language" }
+		    100% { content: "cat languages" }
                 }
                 
                 * {
@@ -82,13 +83,13 @@
                     box-sizing: border-box;
                 }
                 .root {
-                    background-color: #1a2026;
+                    background-color: #34495E;
                     font-size: 14px;
                     padding: 10px;
                     width: 100%;
                     height: 100%;
                     border-radius: 10px;
-                    color: white;
+                    color: #EDBB99;
                     font-family: monospace;
                     letter-spacing: calc(8px - 1ch);
                     line-height: 18px;
@@ -240,7 +241,7 @@
                     <span class="command"/>
                 </p>
                 <div class="result">
-                    <p><span>bash  c++  c  java  python  sql  flutter  assembly</span></p>
+                    <p><span>c++  c  java  python  sql  flutter  assembly</span></p>
                 </div>
             </div>
 
