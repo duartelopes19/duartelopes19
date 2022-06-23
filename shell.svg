@@ -25,23 +25,23 @@
                 }
                 @keyframes figlet {
                     0% { content: "" }
-                    4% { content: "f" }
-                    9% { content: "fi" }
-                    13% { content: "fig" }
-                    18% { content: "figl" }
-                    22% { content: "figle" }
-                    27% { content: "figlet" }
-                    31% { content: "figlet " }
-                    36% { content: "figlet -" }
-                    40% { content: "figlet -c" }
-                    45% { content: "figlet -c " }
-                    50% { content: "figlet -c w" }
-                    54% { content: "figlet -c we" }
-                    59% { content: "figlet -c wel" }
-                    63% { content: "figlet -c welc" }
-                    68% { content: "figlet -c welco" }
-                    72% { content: "figlet -c welcom " }
-                    77% { content: "figlet -c welcome" }
+                    5% { content: "f" }
+                    11% { content: "fi" }
+                    16% { content: "fig" }
+                    22% { content: "figl" }
+                    27% { content: "figle" }
+                    33% { content: "figlet" }
+                    38% { content: "figlet " }
+                    44% { content: "figlet -" }
+                    49% { content: "figlet -c" }
+                    55% { content: "figlet -c " }
+                    60% { content: "figlet -c w" }
+                    66% { content: "figlet -c we" }
+                    71% { content: "figlet -c wel" }
+                    77% { content: "figlet -c welc" }
+                    82% { content: "figlet -c welco" }
+                    88% { content: "figlet -c welcom " }
+                    93% { content: "figlet -c welcome" }
                     100% { content: "figlet -c welcome!" }
                 }
                 @keyframes pinky {
