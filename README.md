@@ -1,6 +1,6 @@
 ### Hi there :)
 
-<hr style="height:30pt; visibility:hidden;" />
+<hr height=5px; visibility:hidden;" />
 
 <hr style="height:30pt; visibility:hidden;" />
 
