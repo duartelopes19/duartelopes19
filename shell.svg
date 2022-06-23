@@ -83,7 +83,7 @@
                     box-sizing: border-box;
                 }
                 .root {
-                    background-color: #212F3D;
+                    background-color: #1C2833;
                     font-size: 14px;
                     padding: 10px;
                     width: 100%;
