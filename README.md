@@ -1,7 +1,5 @@
 ### hi there  :)
 
-<hr visibility:hidden;" />
-
 <p align="center">
     <img src="./shell.svg"/>
 </p>
