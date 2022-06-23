@@ -42,7 +42,7 @@
                     68% { content: "figlet -c welco" }
                     72% { content: "figlet -c welcom " }
                     77% { content: "figlet -c welcome" }
-                    81% { content: "figlet -c welcome!" }
+                    100% { content: "figlet -c welcome!" }
                 }
                 @keyframes pinky {
                     0% { content: "" }
