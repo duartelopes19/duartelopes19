@@ -150,7 +150,7 @@
                     animation-delay: var(--start-at);
                 }
                 .command::after {
-                    content: "_";
+                    content: "|";
                     animation-name: hide;
                     animation-duration: var(--duration);
                     animation-timing-function: step-end;
