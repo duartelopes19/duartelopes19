@@ -1,5 +1,3 @@
-### hi there  :)
-
 <p align="center">
     <img src="./shell.svg"/>
 </p>
